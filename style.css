@@ -17,19 +17,32 @@ body {
     justify-content: space-between;
 }
 
+.spaceEvenly {
+    justify-content: space-evenly;
+}
+
 .alignCenter {
     align-items: center;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: violet;
     display: inline-block;
 }
 
 li {
     list-style: none;
 }
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
 
 
 /* HEADER */
@@ -73,7 +86,7 @@ header img {
 }
 
 .hero div {
-    background: rgba(40, 40, 40, 0.314);
+    background-color: rgba(40, 40, 40, 0.314);
     width: 50%;
     position: absolute;
     top: 50%;
@@ -95,4 +108,36 @@ h1 {
     font-size: 30px;
     margin-bottom: 15px;
     color: white;
+}
+
+/* Nos services */
+
+.divA {
+    position: absolute;
+
+}
+
+.servImg {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 23px;
+}
+
+.card {
+    position: relative;
+    display: block;
+    width: 323px;
+    height: 323px;
+}
+
+.cardh2 {
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.w75 {
+ width: 75%;
 }
