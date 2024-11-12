@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* HEADER */
+
+header nav {
+    width: 40%;
+}
+
+.btn {
+    background-color: #B9625D;
+    padding: 16px 55px;
+    border-radius: 15px;
+}
+
+header {
+    padding: 0px 40px;
+    background-color: #B9625D;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+header img {
+    width: 15%;
+}
+
+/* HERO */
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative; /*sortir un élément du flux et le placer en fonction de son parent*/
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover; /* adapter le contenu au block*/
+}
+
+.hero div {
+    background: rgba(40, 40, 40, 0.314);
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /*décaler de ???% en horizontal et ???% en vertical*/
+    text-align: center;
+    padding: 64px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px); /* mettre l'arrière plan en flou, il faut également rajouter un bgcolor*/
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.hero p {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: white;
+}
