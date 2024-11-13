@@ -20,7 +20,7 @@
     </header>
     <main>
         <!-- hero -->
-        <section class="hero">
+        <section class="hero sectionHero">
             <img src="http://www.chateau-saint-victor.com/wp-content/uploads/2016/12/galerie-chateau-saint-victor-loire-saint-etienne-32.jpg" alt="Photo du château">
 
             <div>
@@ -31,43 +31,55 @@
         </section>
 
         <!-- NOS SERVICES -->
-        <section>
+        <section class="sectionService">
 
-            <div>
-                <p>Nos services</p>
-                <div class="flex spaceEvenly w75">
-                    <a href="" class="card">               
-                        <img class="servImg" src="assets/reconstitution.jpg" alt="" title="Lien vers la page 'nos services'">
-                        <h2 class="cardh2">Reconstitution</h2>                    
-                    </a>
-                    <a href="" class="card">                   
-                            <img class="servImg" src="assets/location.jpg" alt="" title="Lien vers la page 'Location'">
-                            <h2 class="cardh2">Location</h2>                    
-                    </a>
-                    <a href="" class="card">
-                            <img class="servImg" src="assets/concert.jpg" alt="" title="Lien vers la page 'Concerts'">
-                            <h2 class="cardh2">Concerts</h2>
-                        
-                    </a>
-                    <a href="" class="card">
-                            <img class="servImg" src="assets/visite.jpg" alt=""title="Lien vers la page 'Visites'">
-                            <h2 class="cardh2">Visites</h2>
-                    </a>
+                <h3>Nos services</h3>
+                <div class="containerService flex relative spaceBetween container">
+                    <div class="flex w75">
+                        <a href="" class="card">               
+                            <img class="servImg" src="assets/reconstitution.png" alt="" title="Lien vers la page 'nos services'">
+                            <h2 class="cardh2">Reconstitution</h2>                    
+                        </a>
+                        <a href="" class="card">                   
+                                <img class="servImg" src="assets/location.png" alt="" title="Lien vers la page 'Location'">
+                                <h2 class="cardh2">Location</h2>                    
+                        </a>
+                        <a href="" class="card">
+                                <img class="servImg" src="assets/concert.png" alt="" title="Lien vers la page 'Concerts'">
+                                <h2 class="cardh2">Concerts</h2>
+                            
+                        </a>
+                        <a href="" class="card">
+                                <img class="servImg" src="assets/visite.png" alt=""title="Lien vers la page 'Visites'">
+                                <h2 class="cardh2">Visites</h2>
+                        </a>
+                    </div>
+
+                    <aside class="sticky positionAside">
+                        <p>Articles récents</p>
+                        <ul>
+                            <li><a href="">Animation au château de la loire</a></li>
+                            <li><a href="">Animation au château de la loire</a></li>
+                            <li><a href="">Animation au château de la loire</a></li>
+                            <li><a href="">Animation au château de la loire</a></li>
+                            <li><a href="">Animation au château de la loire</a></li>
+                            <li><a href="">Animation au château de la loire</a></li>
+                        </ul>
+                    </aside>
                 </div>
+                <!-- Fioriture -->
+                <img src="assets/filigrane.png" alt="" class="filigrane">
+        </section>
 
-                <aside>
-                    <h3></h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </aside>
+        <section class="bgcolored sectionAutres">
+            <h3>L'Histoire du château</h3>
+            <div class="flex container spaceBetween">
+                <div class="w50">
+                    <h4>Un témoignage des siècles passés</h4>
+                    <p>Perché sur les hauteurs de la Loire, le Château de Saint-Victor-sur-Loire a traversé les âges, se dressant comme un témoin privilégié de l'histoire de la région. Son architecture et ses murs portent les traces de nombreux remaniements, reflets des périodes médiévales et modernes qui ont marqué son développement.</p>
+                </div>
+                <img src="assets/loire.jpg" alt="" class="br23">
             </div>
-
         </section>
     </main>
 </body>

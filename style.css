@@ -8,9 +8,47 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 .flex {
     display: flex;
     flex-wrap: wrap;
+}
+
+.sectionHero {
+    margin-bottom: 50px;
+}
+
+.sectionService {
+    padding-bottom: 50px;
+}
+
+.sectionAutres {
+    padding-top: 32px;
+    padding-bottom: 50px;
+}
+
+h1 {
+font-size: 40px;
+margin-bottom: 15px;
+color: white;
+}
+
+
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h4 {
+    padding-bottom: 22px;
+}
+
+.inline {
+    display: inline;
+}
+
+.inlineBlock {
+    display: inline-block;
 }
 
 .spaceBetween {
@@ -21,19 +59,30 @@ body {
     justify-content: space-evenly;
 }
 
+.flexEnd {
+    justify-content: flex-end;
+}
+
 .alignCenter {
     align-items: center;
 }
 
 a {
     text-decoration: none;
-    color: violet;
+    color: white;
     display: inline-block;
 }
 
 li {
     list-style: none;
 }
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    }
+    
 
 .absolute {
     position: absolute;
@@ -43,6 +92,25 @@ li {
     position: relative;
 }
 
+.sticky {
+    position: sticky;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.bgcolored {
+    background-color: #B9625D;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.colored {
+    color: #B9625D;
+}
 
 
 /* HEADER */
@@ -70,6 +138,7 @@ header {
 header img {
     width: 15%;
 }
+
 
 /* HERO */
 
@@ -112,9 +181,20 @@ h1 {
 
 /* Nos services */
 
-.divA {
-    position: absolute;
 
+.containerService div {
+    /* background-color: red; */
+    width: 75%;
+    gap: 20px;
+}
+
+.containerService aside {
+    /* background-color: pink; */
+    width: 20%;
+}
+
+aside a {
+    color: black;
 }
 
 .servImg {
@@ -129,6 +209,7 @@ h1 {
     display: block;
     width: 323px;
     height: 323px;
+    border-radius: 23px;
 }
 
 .cardh2 {
@@ -138,6 +219,25 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-.w75 {
- width: 75%;
+
+
+.positionAside {
+    height: 10%;
+    top: 80px;
+}
+
+/* filigrane */
+
+.filigrane {
+    position: fixed;
+    top: 192px;
+    left: 0px;
+    z-index: -1;
+}
+
+
+/* L'Histoire du château */
+
+.br23 {
+    border-radius: 23px;
 }
