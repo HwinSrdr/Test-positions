@@ -147,7 +147,7 @@ header nav {
 header {
     padding: 0px 40px;
     background-color: #B9625D;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     z-index: 1;
